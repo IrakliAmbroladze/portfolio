@@ -1,4 +1,13 @@
-main {
+.hero {
   background-color: yellowgreen;
   min-height: 100vh;
+
+  .avatar {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    border-radius: 50%;
+  }
 }
