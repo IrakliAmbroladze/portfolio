@@ -1,5 +1,4 @@
 .hero {
-  background-color: yellowgreen;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +10,12 @@
     letter-spacing: -1px;
     color: $primaryColor;
     line-height: 70px;
+
+    .name {
+      background: linear-gradient(90deg, rgba(19, 176, 245, 1) 0%, rgba(231, 15, 170, 1) 100%);
+      background-clip: text;
+      color: transparent;
+    }
   }
 
   .avatar-wrapper {
