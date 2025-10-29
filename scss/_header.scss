@@ -20,7 +20,11 @@ header {
     column-gap: 60px;
 
     a {
+      display: block;
       color: $secondaryColor;
+      line-height: 26px;
+      font-size: 22px;
+      cursor: pointer;
     }
   }
 
