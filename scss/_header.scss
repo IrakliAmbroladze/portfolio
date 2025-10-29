@@ -4,4 +4,23 @@ header {
     justify-content: space-between;
     align-items: center;
   }
+
+  .header-links {
+
+    display: flex;
+    column-gap: 50px;
+  }
+
+  .navigation,
+  .header-icons {
+    display: flex;
+  }
+
+  .navigation {
+    column-gap: 60px;
+  }
+
+  .header-icons {
+    column-gap: 20px;
+  }
 }
