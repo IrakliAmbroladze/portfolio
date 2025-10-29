@@ -1,11 +1,15 @@
 header {
   position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   top: 0;
   background-color: $backgroundColor;
-  padding: 10px 0;
+  height: $headerHeight;
 
   .header-content {
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +59,7 @@ header {
   }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 950px) {
   header {
     .header-content {
 
