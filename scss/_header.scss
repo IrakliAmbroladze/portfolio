@@ -18,6 +18,10 @@ header {
 
   .navigation {
     column-gap: 60px;
+
+    a {
+      color: $secondaryColor;
+    }
   }
 
   .header-icons {
