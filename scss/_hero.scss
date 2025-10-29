@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: calc(100vh - $headerHeight);
+  padding-top: 20px;
 
   .hero-text {
     font-size: 58px;
@@ -34,6 +35,26 @@
       object-position: center top;
       display: block;
       border-radius: 50%;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    row-gap: 20px;
+    ;
+
+    .avatar-wrapper {
+      order: 1;
+    }
+
+    .hero-text {
+      order: 2;
+
+      .name {
+        text-align: center;
+      }
     }
   }
 }
