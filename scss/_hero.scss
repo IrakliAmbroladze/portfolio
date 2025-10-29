@@ -5,8 +5,17 @@
   align-items: center;
   min-height: calc(100vh - $headerHeight);
 
+  .hero-text {
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: $primaryColor;
+    line-height: 70px;
+  }
+
   .avatar-wrapper {
     width: 350px;
+    flex-shrink: 0;
     height: 350px;
     border-radius: 50%;
     padding: 9px;
