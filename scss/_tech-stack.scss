@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin-top: 50px;
 
+  scroll-margin-top: $headerHeight;
+  margin-top: 100px;
   margin-bottom: 100px;
 
   h2,
   p {
 
     text-align: center;
-    line-height: 26px;
   }
 
   h2 {
