@@ -1,29 +1,4 @@
 .tech-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
-  scroll-margin-top: $headerHeight;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-  h2,
-  p {
-
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: $primaryColor;
-  }
-
-  p {
-    color: $secondaryColor;
-    font-size: 32px;
-  }
-
   .stack-logos {
     display: flex;
     flex-wrap: wrap;
