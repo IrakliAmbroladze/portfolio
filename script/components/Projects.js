@@ -1,5 +1,6 @@
-import { projects_list } from "./constants.js";
-function render_projects() {
+import { projects_list } from "../constants.js";
+
+export function Projects() {
   const projects_list_element = document.getElementById("projects-list");
   projects_list.map((project) => {
     const project_card = document.createElement("div");
@@ -9,5 +10,3 @@ function render_projects() {
     projects_list_element.appendChild(project_card);
   });
 }
-
-render_projects();
