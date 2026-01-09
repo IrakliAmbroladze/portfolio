@@ -1,3 +1,7 @@
 import { Projects } from "./components/Projects.js";
 
-Projects();
+function main() {
+  Projects();
+}
+
+main();
