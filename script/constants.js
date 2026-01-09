@@ -1,7 +1,7 @@
 export const projects_list = [
   {
     image: "project-cover-0.jpg",
-    title: "Project title",
+    title: "Project one",
     paragraph: "some text some text some text",
     stack: ["HTML", "JavaScript"],
     live_url: "",
@@ -9,7 +9,23 @@ export const projects_list = [
   },
   {
     image: "project-cover-0.jpg",
-    title: "Project title",
+    title: "Project two",
+    paragraph: "some text some text some text",
+    stack: ["HTML", "JavaScript"],
+    live_url: "",
+    source_code: "",
+  },
+  {
+    image: "project-cover-0.jpg",
+    title: "Project three",
+    paragraph: "some text some text some text",
+    stack: ["HTML", "JavaScript"],
+    live_url: "",
+    source_code: "",
+  },
+  {
+    image: "project-cover-0.jpg",
+    title: "Project four",
     paragraph: "some text some text some text",
     stack: ["HTML", "JavaScript"],
     live_url: "",
