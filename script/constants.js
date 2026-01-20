@@ -9,36 +9,13 @@ export const projects_list = [
     source_code: "https://github.com/IrakliAmbroladze/chess-app",
   },
   {
-    image: "project-cover-1.jpg",
-    title: "Project two",
-    paragraph: "some text some text some text",
-    stack: ["HTML", "JavaScript"],
-    live_url: "#",
-    source_code: "#",
-  },
-  {
-    image: "project-cover-1.jpg",
-    title: "Project three",
-    paragraph: "some text some text some text",
-    stack: ["HTML", "JavaScript"],
-    live_url: "#",
-    source_code: "#",
-  },
-  {
-    image: "project-cover-0.jpg",
-    title: "Project four",
-    paragraph: "some text some text some text",
-    stack: ["HTML", "JavaScript"],
-    live_url: "",
-    source_code: "",
-  },
-  {
-    image: "project-cover-0.jpg",
-    title: "Project five",
-    paragraph: "some text some text some text",
-    stack: ["HTML", "JavaScript"],
-    live_url: "",
-    source_code: "",
+    image: "primal_training.png",
+    title: "Primal training",
+    paragraph:
+      "A fully responsive landing page built with HTML and SCSS, following a component-based structure and modern UI practices. The project supports desktop, tablet, and mobile views.",
+    stack: ["HTML", "SCSS"],
+    live_url: "https://irakliambroladze.github.io/primal-training/",
+    source_code: "https://github.com/IrakliAmbroladze/primal-training",
   },
 ];
 
