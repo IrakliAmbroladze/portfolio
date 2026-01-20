@@ -38,9 +38,9 @@ export const Project_Card = ({
   card_container_element.appendChild(title);
   description.textContent = project.paragraph;
   label.textContent = "Tech stack:";
-  chain_icon.src = "/images/icons/chain.svg";
+  chain_icon.src = "images/icons/chain.svg";
   chain_icon.alt = "chain";
-  github_icon.src = "/images/icons/github.svg";
+  github_icon.src = "images/icons/github.svg";
   github_icon.alt = "github";
 
   live_url.href = project.live_url || "#";

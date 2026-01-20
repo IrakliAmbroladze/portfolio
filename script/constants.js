@@ -42,4 +42,4 @@ export const projects_list = [
   },
 ];
 
-export const PROJECTS_COVERS_DIRECTORY = "/images/project-covers";
+export const PROJECTS_COVERS_DIRECTORY = "images/project-covers";
