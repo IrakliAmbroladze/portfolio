@@ -7,6 +7,7 @@ export const Project_Card = ({
   const card_container_element = document.createElement("div");
   card_container_element.className = "project";
 
+  const cover_container = document.createElement("div");
   const cover = document.createElement("img");
   const title = document.createElement("h2");
   const description = document.createElement("p");
@@ -14,12 +15,16 @@ export const Project_Card = ({
   const live_url = document.createElement("a");
   const source_code = document.createElement("a");
 
+  cover_container.className = "cover-container";
+  cover.className = "cover";
+  cover_container.appendChild(cover);
+
   title.textContent = project.title;
   card_container_element.appendChild(title);
   cover.src = cover_src;
   cover.alt = cover_alt;
   card_container_element.append(
-    cover,
+    cover_container,
     title,
     description,
     stack,
