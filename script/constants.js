@@ -1,8 +1,9 @@
 export const projects_list = [
   {
     image: "chess.png",
-    title: "Real-Time Multiplayer Chess",
-    paragraph: "some text some text some text",
+    title: "Chess",
+    paragraph:
+      "A full-stack chess application built entirely in Rust, featuring real-time multiplayer gameplay with WebSockets, timers, and full chess rules validation.",
     stack: ["HTML", "JavaScript"],
     live_url: "",
     source_code: "",

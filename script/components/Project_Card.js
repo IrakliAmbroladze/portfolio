@@ -20,10 +20,11 @@ export const Project_Card = ({
   cover.className = "cover";
   project_content_container.className = "project-content-container";
 
-  title.textContent = project.title;
-  card_container_element.appendChild(title);
   cover.src = cover_src;
   cover.alt = cover_alt;
+  title.textContent = project.title;
+  card_container_element.appendChild(title);
+  description.textContent = project.paragraph;
 
   cover_container.appendChild(cover);
   project_content_container.append(
