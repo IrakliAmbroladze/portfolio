@@ -43,9 +43,9 @@ export const Project_Card = ({
   github_icon.src = "/images/icons/github.svg";
   github_icon.alt = "github";
 
-  live_url.href = project.live_url;
+  live_url.href = project.live_url || "#";
   live_url.target = "_blank";
-  source_code.href = project.source_code;
+  source_code.href = project.source_code || "#";
   source_code.target = "_blank";
 
   live_url_span.textContent = "Live Preview";
