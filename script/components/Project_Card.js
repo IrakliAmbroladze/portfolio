@@ -14,6 +14,7 @@ export const Project_Card = ({
   const description = document.createElement("p");
   const stack = document.createElement("h3");
   const label = document.createElement("label");
+  const ul = document.createElement("ul");
   const live_url = document.createElement("a");
   const source_code = document.createElement("a");
 
@@ -27,7 +28,17 @@ export const Project_Card = ({
   card_container_element.appendChild(title);
   description.textContent = project.paragraph;
   label.textContent = "Tech stack:";
-  stack.appendChild(label);
+  stack.append(label, ul);
+
+  project.stack.forEach((element, index, array) => {
+    const li = document.createElement("li");
+    if (index !== array.length - 1) {
+      li.innerHTML = `${element},&nbsp;`;
+    } else {
+      li.textContent = element;
+    }
+    ul.appendChild(li);
+  });
 
   cover_container.appendChild(cover);
   project_content_container.append(

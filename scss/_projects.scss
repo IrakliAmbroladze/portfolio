@@ -44,9 +44,16 @@
           text-align: start;
         }
         h3{
+          display: flex;
+          column-gap: 10px;
           label{
             font-weight: 500;
             color: $primaryColor;
+           white-space: nowrap;
+          }
+          ul{
+            display: flex;
+            flex-wrap: wrap;
           }
 
         }

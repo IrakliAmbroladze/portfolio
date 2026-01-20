@@ -4,7 +4,7 @@ export const projects_list = [
     title: "Chess",
     paragraph:
       "A full-stack chess application built entirely in Rust, featuring real-time multiplayer gameplay with WebSockets, timers, and full chess rules validation.",
-    stack: ["HTML", "JavaScript"],
+    stack: ["Rust", "Leptos", "Axum", "WebSockets"],
     live_url: "",
     source_code: "",
   },
