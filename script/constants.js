@@ -1,7 +1,7 @@
 export const projects_list = [
   {
-    image: "project-cover-0.jpg",
-    title: "Project one",
+    image: "chess.png",
+    title: "Real-Time Multiplayer Chess",
     paragraph: "some text some text some text",
     stack: ["HTML", "JavaScript"],
     live_url: "",
