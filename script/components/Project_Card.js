@@ -13,6 +13,7 @@ export const Project_Card = ({
   const title = document.createElement("h2");
   const description = document.createElement("p");
   const stack = document.createElement("h3");
+  const label = document.createElement("label");
   const live_url = document.createElement("a");
   const source_code = document.createElement("a");
 
@@ -25,6 +26,8 @@ export const Project_Card = ({
   title.textContent = project.title;
   card_container_element.appendChild(title);
   description.textContent = project.paragraph;
+  label.textContent = "Tech stack:";
+  stack.appendChild(label);
 
   cover_container.appendChild(cover);
   project_content_container.append(

@@ -36,12 +36,19 @@
           font-size: 28px;
           font-weight: 500;
         }
-        p{
+        p, h3{
           font-size: 18px;
           line-height: 26px;
           font-weight: 400;
           color: $secondaryColor;
           text-align: start;
+        }
+        h3{
+          label{
+            font-weight: 500;
+            color: $primaryColor;
+          }
+
         }
       }
     }
