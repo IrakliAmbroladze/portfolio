@@ -17,6 +17,15 @@ export const projects_list = [
     live_url: "https://irakliambroladze.github.io/primal-training/",
     source_code: "https://github.com/IrakliAmbroladze/primal-training",
   },
+  {
+    image: "weather.png",
+    title: "Weather Forecast",
+    paragraph:
+      "A modern, responsive weather application built with React and Vite that provides real-time weather information for cities worldwide.",
+    stack: ["React", "Tailwind CSS"],
+    live_url: "https://amindi-app.vercel.app/",
+    source_code: "https://github.com/IrakliAmbroladze/weather-app",
+  },
 ];
 
 export const PROJECTS_COVERS_DIRECTORY = "images/project-covers";
