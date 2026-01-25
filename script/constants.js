@@ -18,7 +18,7 @@ export const projects_list = [
     source_code: "https://github.com/IrakliAmbroladze/primal-training",
   },
   {
-    image: "weather.png",
+    image: "weather_app.jpg",
     title: "Weather Forecast",
     paragraph:
       "A modern, responsive weather application built with React and Vite that provides real-time weather information for cities worldwide.",
