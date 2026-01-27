@@ -1,6 +1,6 @@
 export class Section {
-  constructor(title, subtitle) {
+  constructor(title, subheader) {
     this.title = title;
-    this.subtitle = subtitle;
+    this.subheader = subheader;
   }
 }
