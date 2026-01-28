@@ -34,7 +34,7 @@ export const ARTICLES_COVERS_DIRECTORY = "images/article-covers";
 export const articles_list = [
   {
     image: "ownership.jpg",
-    title: "გთავი 4. ავიგოთ Ownership",
+    title: "თავი 4. გავიგოთ Ownership",
     paragraph:
       "Ownership, Rust-ზე უზარმაზარი გავლენის მომხდენი უნიკალური მახასიათებელია, რომელიც მეხსიერების უსაფრთხოებას ნარჩენების შემგროვებლის (GC garbage collector) გარეშე უზრუნველყოფს.",
     stack: ["Rust", "Ownership"],

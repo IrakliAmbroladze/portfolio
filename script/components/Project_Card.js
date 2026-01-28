@@ -52,7 +52,9 @@ export const Project_Card = ({
   source_code_span.textContent = "View Code";
   stack.append(label, ul);
   live_url.append(chain_icon, live_url_span);
-  source_code.append(github_icon, source_code_span);
+  if (project.source_code) {
+    source_code.append(github_icon, source_code_span);
+  }
   links_container.append(live_url, source_code);
   project.stack.forEach((element, index, array) => {
     const li = document.createElement("li");
