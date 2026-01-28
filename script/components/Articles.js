@@ -1,5 +1,5 @@
 import { Section } from "../classes/Section.js";
-import { articles_list, PROJECTS_COVERS_DIRECTORY } from "../constants.js";
+import { articles_list, ARTICLES_COVERS_DIRECTORY } from "../constants.js";
 import { Project_Card } from "./Project_Card.js";
 
 export function Articles() {
@@ -22,7 +22,7 @@ export function Articles() {
     Project_Card({
       project,
       grid_container_element: articlesList,
-      cover_src: `${PROJECTS_COVERS_DIRECTORY}/${project.image}`,
+      cover_src: `${ARTICLES_COVERS_DIRECTORY}/${project.image}`,
       cover_alt: project.image,
     }),
   );
