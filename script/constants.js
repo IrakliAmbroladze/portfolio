@@ -26,6 +26,15 @@ export const projects_list = [
     live_url: "https://amindi-app.vercel.app/",
     source_code: "https://github.com/IrakliAmbroladze/weather-app",
   },
+  {
+    image: "comparer.png",
+    title: "Data Comparer",
+    paragraph:
+      "A web application built with Rust (Leptos + Axum) to compare two datasets by ID and aggregate duplicate records.",
+    stack: ["Rust", "Leptos", "Axum"],
+    live_url: "https://data-comparer.fly.dev/",
+    source_code: "https://github.com/IrakliAmbroladze/data-comparer",
+  },
 ];
 
 export const PROJECTS_COVERS_DIRECTORY = "images/project-covers";
