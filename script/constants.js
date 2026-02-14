@@ -81,4 +81,14 @@ export const articles_list = [
       "https://medium.com/@ambroladzeirakli/4-3-slice-%E1%83%A2%E1%83%98%E1%83%9E%E1%83%98-988de3becebe",
     source_code: "",
   },
+  {
+    image: "generics.jpg",
+    title: "თავი 10. Generics, Traits და Lifetimes",
+    paragraph:
+      "ყველა პროგრამირების ენას გააჩნია ინსტრუმენტები განმეორებად კონცეფციათა თავიდან ეფექტურად ასარიდებლად. Rust-ში ერთ-ერთი ასეთი ინსტრუმენტია საერთო ტიპები, იგივე - generics: კონკრეტული ტიპის ან მახასიათებლის აბსტრაქტული ჩამნაცვლებელი.",
+    stack: ["Rust", "Generics"],
+    live_url:
+      "https://medium.com/@ambroladzeirakli/თავი-10-საერთო-ტიპები-generics-მახასიათებლები-traits-და-სიცოცხლის-ხანგრძლივობა-lifetimes-071f7fcda650",
+    source_code: "",
+  },
 ];
