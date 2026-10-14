@@ -91,4 +91,14 @@ export const articles_list = [
       "https://medium.com/@ambroladzeirakli/თავი-10-საერთო-ტიპები-generics-მახასიათებლები-traits-და-სიცოცხლის-ხანგრძლივობა-lifetimes-071f7fcda650",
     source_code: "",
   },
+  {
+    image: "hello_rust.png",
+    title: "თავი 21.1. ერთნაკადიანი Web Server-ის შექმნა",
+    paragraph:
+      "Web server-ებთან დაკავშირებული ორი ძირითადი პროტოკოლია: Hypertext Transfer Protocol (HTTP) და Transmission Control Protocol (TCP). ორივე request-response ტიპისაა, რაც ნიშნავს შემდეგს: ",
+    stack: ["Rust", "Web Server"],
+    live_url:
+      "https://medium.com/@ambroladzeirakli/21-1-%E1%83%94%E1%83%A0%E1%83%97%E1%83%9C%E1%83%90%E1%83%99%E1%83%90%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-web-server-%E1%83%98%E1%83%A1-%E1%83%A8%E1%83%94%E1%83%A5%E1%83%9B%E1%83%9C%E1%83%90-d49e177cef42",
+    source_code: "",
+  },
 ];
